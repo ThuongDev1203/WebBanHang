@@ -1,0 +1,110 @@
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #055260e9;
+}
+
+.wrapper{
+    width: 420px;
+    color: #fff;
+    background: #1c9999;
+    border-radius: 20px;
+    padding: 30px 40px;
+}
+
+.wrapper h1{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: #93a8a8;
+    outline: none;
+    border: 2px solid rgba(3, 3, 3, 0.863);
+    border-radius: 10px;
+    font-size: 16px;
+    color: black;
+    padding: 20px 45px 20px 10px;
+}
+
+.input-box input::placeholder{
+    color: #fff;
+}
+
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+}
+
+
+.wrapper .btn{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 1px solid #000;
+    background-color: #b87345;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 40px;
+    margin: 10px auto;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background: #1c3599;
+    color: #000;
+}
+
+.wrapper .register-link{
+    padding: 10px 20px 5px 20px;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.wrapper .social-icon-box{
+    display: flex;
+    margin: 20px 0;
+    justify-content: center;
+}
+
+.social-icon-box a{
+    text-decoration: none;
+    border: 1px solid #000;
+	border-radius: 50%;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+}
+
